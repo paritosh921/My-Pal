@@ -26,7 +26,7 @@ const Dirization = () => {
   useEffect(() => {
     const fetchNgrokUrl = async () => {
       try {
-        const response = await axios.get('https://dirization-server.onrender.com/current-ngrok'); // Replace with your Node server's IP
+        const response = await axios.get('HHHHHHHHHHHHHH'); // Replace with your Node server's IP
         const fetchedUrl = response.data.ngrokUrl;
 
         console.log('Fetched Ngrok URL:', fetchedUrl);
