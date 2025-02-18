@@ -26,7 +26,7 @@ const fetchImageDataAsBase64 = async (imageUri) => {
 };
 
 const sendImageToGeminiAPI = async (imageUri) => {
-  const apiKey = 'AIzaSyA49kKnxLWHWd-Pl0RqQOBvG7P3zh6AkH0';
+  const apiKey = 'API Key here';
   const genAI = new GoogleGenerativeAI(apiKey);
   try {
     const model = genAI.getGenerativeModel({ model: 'gemini-1.5-pro' });
