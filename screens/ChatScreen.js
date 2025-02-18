@@ -3,7 +3,7 @@ import { View, TextInput, Text, StyleSheet, FlatList, TouchableOpacity, Keyboard
 import axios from 'axios';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
-const GROQ_API_KEY = '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';
+const GROQ_API_KEY = 'API here';
 
 const ChatScreen = () => {
   const [userInput, setUserInput] = useState('');
